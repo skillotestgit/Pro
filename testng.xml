@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Alabala">
+    <test name="UI tests">
+        <classes>
+            <class name="com.company.BeforeAllTests"></class>
+            <class name="com.company.BeforeUITests"></class>
+            <class name="com.company.Tests"></class>
+            <class name="com.company.RegistrationTests"></class>
+        </classes>
+    </test>
+    <test name="Integration tests">
+        <classes>
+            <class name="com.company.BeforeIntegrationTests"></class>
+            <class name="com.company.Tests3"></class>
+        </classes>
+    </test>
+</suite>

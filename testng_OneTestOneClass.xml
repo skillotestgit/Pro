@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Skiilo Platform Tests">
+    <test name = "UI functional tests">
+        <classes>
+            <class name="com.company.RegistrationTests">
+            </class>
+        </classes>
+    </test>
+</suite>

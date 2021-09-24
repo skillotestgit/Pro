@@ -2,7 +2,7 @@
 <suite name="MySuite" parallel="methods" thread-count="5">
     <test name = "Tests2">
         <classes>
-            <class name="com.company.RegistrationTests">
+            <class name="com.company.tests.RegistrationTests">
             </class>
         </classes>
     </test>

@@ -1,10 +1,13 @@
-package com.company;
+package com.company.tests;
 
+import com.company.pagefactory.Header;
+import com.company.pagefactory.LoginPage;
+import com.company.pagefactory.RegistrationForm;
+import com.company.tests.BaseTests;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.io.File;
 import java.io.IOException;
 import java.time.Instant;
 

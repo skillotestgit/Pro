@@ -5,7 +5,7 @@
             <class name="com.company.BeforeAllTests"></class>
             <class name="com.company.BeforeUITests"></class>
             <class name="com.company.Tests"></class>
-            <class name="com.company.RegistrationTests"></class>
+            <class name="com.company.tests.RegistrationTests"></class>
         </classes>
     </test>
     <test name="Integration tests">

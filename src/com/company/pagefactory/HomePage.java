@@ -1,4 +1,4 @@
-package com.company;
+package com.company.pagefactory;
 
 import org.openqa.selenium.WebDriver;
 

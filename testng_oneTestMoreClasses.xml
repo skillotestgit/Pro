@@ -4,7 +4,7 @@
         <classes>
             <class name="com.company.Tests">
             </class>
-            <class name="com.company.RegistrationTests">
+            <class name="com.company.tests.RegistrationTests">
             </class>
         </classes>
     </test>

@@ -1,15 +1,15 @@
-package com.company;
+package com.company.tests;
 
-import org.openqa.selenium.WebDriver;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
+import com.company.configurations.Configuration;
+import com.company.configurations.Driver;
+import com.company.configurations.DriverType;
+import com.company.helpers.FileHelpers;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
-import java.io.File;
 import java.io.IOException;
 
 public class BaseTests {

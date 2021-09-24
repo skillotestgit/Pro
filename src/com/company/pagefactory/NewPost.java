@@ -1,5 +1,7 @@
-package com.company;
+package com.company.pagefactory;
 
+import com.company.configurations.Configuration;
+import com.company.helpers.FileHelpers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

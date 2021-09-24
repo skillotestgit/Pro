@@ -1,5 +1,6 @@
-package com.company;
+package com.company.helpers;
 
+import com.company.configurations.Configuration;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.comparator.LastModifiedFileComparator;
 import org.apache.commons.io.filefilter.FileFilterUtils;

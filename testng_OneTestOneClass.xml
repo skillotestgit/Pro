@@ -2,7 +2,7 @@
 <suite name="Skiilo Platform Tests">
     <test name = "UI functional tests">
         <classes>
-            <class name="com.company.RegistrationTests">
+            <class name="com.company.tests.RegistrationTests">
             </class>
         </classes>
     </test>

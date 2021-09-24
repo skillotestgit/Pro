@@ -8,7 +8,7 @@
     </test>
     <test name = "Tests2">
         <classes>
-            <class name="com.company.RegistrationTests">
+            <class name="com.company.tests.RegistrationTests">
             </class>
         </classes>
     </test>

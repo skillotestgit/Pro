@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CrossBrowserCheck" parallel="none">
+    <test name="Chrome">
+        <parameter name ="browser" value="CHROME"></parameter>
+        <classes>
+            <class name ="com.company.tests.TestBr" ></class>
+        </classes>
+    </test>
+
+    <test name="HEADLESS">
+        <parameter name ="browser" value="headless">
+        </parameter>
+        <classes>
+            <class name ="com.company.tests.TestBr"></class>
+        </classes>
+    </test>
+
+    <test name="Firefox">
+        <parameter name ="browser" value="FIREFOX">
+        </parameter>
+        <classes>
+            <class name ="com.company.tests.TestBr"></class>
+        </classes>
+    </test>
+
+    <test name="Opera">
+        <parameter name ="browser" value="OPERA">
+        </parameter>
+        <classes>
+            <class name ="com.company.tests.TestBr"></class>
+        </classes>
+    </test>
+
+<!--    <test name="Edge">-->
+<!--        <parameter name ="browser" value="edge">-->
+<!--        </parameter>-->
+<!--        <classes>-->
+<!--            <class name ="com.company.tests.TestBr"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
+

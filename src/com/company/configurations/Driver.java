@@ -14,7 +14,6 @@ import java.util.Set;
 public class Driver implements WebDriver {
 
     ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-
     public Driver(DriverType browserType){
 
         if(browserType == DriverType.CHROME){

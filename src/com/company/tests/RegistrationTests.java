@@ -176,8 +176,8 @@ public class RegistrationTests extends BaseTests {
 
     @Test
     void compareFiles(){
-        File file1 = new File("C:\\Users\\skillo\\Documents\\pics\\pic1.png");
-        File file2 = new File("C:\\Users\\skillo\\Documents\\pics\\pic2.png");
+        File file1 = new File("C:\\bin\\pics\\file1.png");
+        File file2 = new File("C:\\bin\\pics\\file2.png");
         boolean test = FileHelpers.filesEqual(file1, file2);
         Assert.assertTrue(test);
     }

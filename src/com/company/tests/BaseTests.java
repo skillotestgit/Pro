@@ -4,11 +4,13 @@ import com.company.configurations.Configuration;
 import com.company.configurations.Driver;
 import com.company.configurations.DriverType;
 import com.company.helpers.FileHelpers;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 
@@ -38,9 +40,12 @@ public class BaseTests {
 
     @BeforeMethod
     void setup() {
-        driver.set(new Driver(DriverType.CHROME));
+        //driver.set(new Driver(DriverType.CHROME));
+        driver.set(new Driver(DriverType.OPERA));
         getDriver().loadBaseUrl();
     }
+    
+
 
     @AfterMethod
     void cleanUp(ITestResult result) throws IOException {
